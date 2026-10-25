@@ -1,0 +1,16 @@
+{
+  "name": "dasbor-toko",
+  "version": "1.0.0",
+  "description": "Dasbor penjualan toko dalam JavaScript murni: ringkasan yang ditulis dari data, tren, kanal, jam tersibuk, dan buku pesanan dari satu berkas JSON.",
+  "private": true,
+  "scripts": {
+    "start": "npx --yes serve docs",
+    "data": "node scripts/generate-data.js",
+    "test": "node --test test/metrics.test.js"
+  },
+  "keywords": ["dashboard", "analytics", "svg", "vanilla-js", "indonesia"],
+  "author": "Reza Arya Maulana",
+  "license": "MIT",
+  "homepage": "https://rezaaryam.github.io/dasbor-toko/",
+  "repository": { "type": "git", "url": "https://github.com/rezaaryam/dasbor-toko.git" }
+}
